@@ -21,12 +21,15 @@ Theres quite an interesting find on the salary averages in different sectors.
 
 ## Executive Summary:
 ![image](https://user-images.githubusercontent.com/88234945/162124431-abab8404-217e-4270-95d1-fa42a9c05d93.png)
+
 From the modelling summary table, we can deduce that Extra Tree Classifier is the most suitable model for this application compared to the rest in terms of MSE, MAE and accuracy. It also performs better than our baseline model which is expected to be ~35% only for accuracy.
+
 ![image](https://user-images.githubusercontent.com/88234945/162125455-fd99f2ee-2fa0-443b-babc-c8cc08e48535.png)
+
 Looking into the models top features, we can say that applicants can focus on these key qualities to help improve their resume and also position them in a better place.
 
 ## Conclusion:
--As a conclusion, we will be using the Extra Trees Classifier on the final model to predict salary for the web app. We found that the job description NLP classification works best. So we had to drop the other features such as location even though EDA shows some correlation but the model accuracy drops significantly when we ran it  together using pycaret.
+As a conclusion, we will be using the Extra Trees Classifier on the final model to predict salary for the web app. We found that the job description NLP classification works best. So we had to drop the other features such as location even though EDA shows some correlation but the model accuracy drops significantly when we ran it  together using pycaret.
 
 ## Recommendation:
 - The trend might change with recent job requirement shift and new industries popping up from time to time. It serves as a caveat that this model is not robust to predict all future changes. So, future studies its best to update the model with new data.
