@@ -1,0 +1,32 @@
+<html>
+<meta charset="UTF-8">
+<h1><center>Job Salary Predictor for Data Related Positions</center></h1>
+<br>
+<br>
+<br>
+<body style="background-color:#B7E9F7;">
+<form action="{{ url_for('salary_predictor') }}" method="post">
+    <center><h3> Please enter a full job description below </h3></center>
+    <br>
+    <center><textarea id="description" name="description" rows="10" cols="100" wrap="hard"></textarea></center>
+    <br>
+    <center><button id="analyze"> Analyze Job </button></center>
+</form>
+<br>
+<br>
+<center><h4><span id='most-common-words'></span></h4></center>
+</body>
+<br>
+<center><h4><span id='salary_prediction_text'>{{salary_prediction_text}}</span></h4></center>
+<br>
+<center><span id='salary-range'>{{salaryRange}}</span></center>
+    
+<center><img src="/plot.png" alt="my plot"></center>
+
+</html>
+
+<script> 
+
+
+
+</script>
